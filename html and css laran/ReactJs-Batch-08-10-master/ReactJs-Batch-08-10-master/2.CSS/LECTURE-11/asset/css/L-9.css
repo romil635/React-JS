@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+/************ css overlay ***********/
+
+.divs{
+height: 1000px;
+}
+
+.maindiv{
+  position: relative;
+}
+
+.overlay{
+  height: 1000px;
+  width:1920px;
+  background-color: black;
+  position: absolute;
+  inset:0;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+/******* Css Value and Units *******/
+
+
+
+   
+/**** css background blend mode  ****/
+
+.blend-mode{
+  background-image:url('../image/image-1.jpg') , url('../image/pexels-michael.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-blend-mode:soft-light;
+}
+
+
+

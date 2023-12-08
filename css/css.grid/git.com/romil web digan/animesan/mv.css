@@ -1,0 +1,28 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    /* position: relative; */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;  
+  }
+  div:hover{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;  
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;right: 600px;}
+    25%  {background-color:yellow; left:800px; top:0px;right:600px;}
+    50%  {background-color:blue; left:800px; top:600px;right: 600px;}
+    75%  {background-color:green; left:800px; top:600px;right: 500px;}
+    100% {background-color:red; left:800px; top:600px;right: 400px;}
+  }

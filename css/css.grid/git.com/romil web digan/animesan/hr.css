@@ -1,0 +1,36 @@
+#romil {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    animation: GFG 5s linear 1s infinite alternate;
+}
+
+@keyframes GFG {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 1000px;
+        top: 200px;
+        bottom: 800px;
+    }
+
+    50% {
+        left: 700px;
+        top: 0px;
+        bottom: 1000x;
+    }
+
+    75% {
+        left: 0px;
+        top: 200px;
+        bottom: 600px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}

@@ -1,0 +1,47 @@
+/* common css */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+ol , ul {
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    background-color: rgb(194, 194, 194);
+}
+
+/* header start*/
+
+/* nav-1 start */
+
+.appoinment{
+    display: flex;
+    justify-content: space-between;
+}
+
+.selection{
+    display: flex;
+}
+
+select{
+    border: none;
+}
+select:focus{
+    border: 0;
+    outline: none;
+}

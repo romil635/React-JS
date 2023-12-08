@@ -1,0 +1,18 @@
+/* .main{
+    background-color: bisque;
+    height: 400px;
+    width: 100%;
+}
+.romil{
+    height:300px;
+    width: 300px;
+    background-color: aquamarine;
+    border-radius: 50%;
+} */
+@mixin clearfix() {
+    &::after {
+      display: block;
+      clear: both;
+      content: "";
+    }
+  }
