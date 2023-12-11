@@ -1,7 +1,6 @@
-
 body
 {
-    background-image: linear-gradient(to right, #800080, #ad2279, #cf4975, #e77076, #f89880);
+    background: linear-gradient(to left,rgb(95,129,199),rgb(239,138,115));
 }
 
 
