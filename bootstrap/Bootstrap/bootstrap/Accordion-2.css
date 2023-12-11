@@ -1,0 +1,37 @@
+
+.container-md .accordion
+{
+    width: calc(100% - 30%);
+}
+
+
+
+.accordion-item
+{
+    border-radius: 50px 50px 50px 50px !important ;
+    overflow: hidden;
+    border: none;
+}
+
+
+.accordion-item .accordion-button
+{
+    box-shadow: none;   
+    background-color: #FF00FF;
+}
+
+.accordion-item .accordion-button::after
+{
+    background-image: url(icons/arrow-up-svgrepo-com.svg);
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-right: 24px;
+}
+
+
+.accordion-item .accordion-body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

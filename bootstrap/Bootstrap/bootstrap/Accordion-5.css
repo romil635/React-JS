@@ -1,0 +1,34 @@
+
+.accordion-item .accordion-button
+{
+    box-shadow: none;
+    position: relative;
+}
+
+ .accordion-item .accordion-button::after
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    background-image:url(icons/plus-svgrepo-com\ -white.svg);
+    margin: auto;
+    margin-left: 10px;
+    width: 26px !important;
+    height: 26px !important;
+    background-size: cover;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image:url(icons/dash-svgrepo-com\ -white.svg);
+    background-position: center;
+    background-size:18px;  
+} 
+
+
+.accordion-item .accordion-body .row .col-12 img
+{
+    width: 240px;
+    height: 240px ;
+    object-fit: cover;
+}
