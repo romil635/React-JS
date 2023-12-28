@@ -1,0 +1,77 @@
+@import './veriable.scss';
+// mixin method
+
+@mixin card {
+    height: $h-300;
+    width: $w-200;
+    background-color: $bg-white;
+    border: 1px solid black;
+    margin: 30px;
+
+}
+
+@mixin card {
+    height: $h-300;
+    width: $w-200;
+    background-color: $bg-yellow;
+    border: 1px solid black;
+    margin: 30px;
+    text-align: center;
+
+}
+
+// h3{
+//     text-align: center;
+// }
+// p{
+//     text-align: center;
+// }
+button {
+    margin-left: 50px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+
+// .container{
+//     display: flex; 
+//     justify-content: space-around;
+// }
+
+
+.twitter {
+    @include card;
+
+}
+
+// .icon{
+//     margin-top: 20px;
+//     margin-left: 90px;
+// }
+
+
+.instagram {
+    @include card;
+
+}
+
+
+.youtube {
+    @include card;
+}
+
+
+%card {
+    display: inline;
+    justify-self: unset;
+    height: $h-300;
+    width: $w-200;
+    background-color: $bg-yellow;
+    border: 1px solid black;
+    margin: 30px;
+    text-align: center
+}
+
+.maindiv {
+    @extend %card {}
+}
