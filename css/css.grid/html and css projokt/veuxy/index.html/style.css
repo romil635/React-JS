@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(144, 140, 140);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+    display: flex;
+}
+/* nev bar */
+/* garid   */
+.garid-1{
+    background-color: rgb(249, 248, 247);
+    height: 870px;
+    width: 300px;
+}
+
+/* search */
+.garid-2{
+    height: 60px;
+    width: 1060px ;
+    margin: auto;
+    padding-top: 2px;
+    margin-left: 23%;
+    top: 0;
+    background-color:  rgb(249, 248, 247);
+    border-radius: 10px 10px 10px 10px ;
+    position: absolute;
+    /* display: flex   ; */
+}
+.garid-2 .search{
+    height: 20px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+  
+}
