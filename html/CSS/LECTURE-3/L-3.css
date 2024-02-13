@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+} 
+
+CSS MARGIN
+ 
+.margin{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin:-200px;
+}
+
+.padding{
+height: 200px;
+width: 200px;
+border:10px solid red;
+padding:50px; 
+margin: 50px;
+}
+
+
+
+/* CSS BOX MODEL */
+
+.content-box{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    padding: 50px;
+    border:10px solid red;
+    box-sizing: content-box;
+}
+
+.border-box{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    padding: 50px;
+    border:10px solid red;
+    box-sizing: border-box;
+} 
+
+
+/* box-sizing properties */
+
+
+
+
+/* css width / height */
+
+.height{
+    min-height: 500px;
+    min-width: 500px;
+    background-color: green;
+}
+
+
+
+
+
+/* listing tag and table tag in css */
+
+
+/* listing tag */
+
+
+/*
+    list-style-type
+    list-style-position
+    list-style-image
+*/
+
+ol {
+     list-style-type: armenian;
+     list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
+    list-style-type: georgian;
+    list-style-type: lower-alpha;
+    list-style-type: lower-greek;    
+    list-style-type: lower-latin;
+    list-style-type: lower-roman;
+    list-style-type: none;
+    list-style-type: upper-alpha;
+    list-style-type: upper-latin;   
+    list-style-type: upper-roman;
+    list-style-image: url("../image/car.png"); 
+    /* list-style-position: outside; */
+}
+
+/* unorder list */
+
+ ul{
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-type: none;
+    list-style-image: url("../image/car.png"); 
+    list-style-position: inside;
+} 
+
+/* css box-shadow */
+
+
+
+.box-shadow{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 1px gray;
+    margin: 200px;
+}

@@ -1,0 +1,16 @@
+.container img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.containe .con{
+    height: 308px;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}

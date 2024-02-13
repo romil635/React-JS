@@ -1,0 +1,53 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+/* css online font */
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+
+/* css offline font */
+
+
+
+/* css display properties */
+
+
+/* .box-1 , .box-2 , .box-3  , .box-4  , .box-5{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border:2px solid black;   
+}
+
+
+
+.mainbox{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+} */
+
+
+span{
+    height: 200px;
+    width: 200px;
+    background-color: slateblue;
+    margin: 50px;
+    /* display: inline-block; */
+}
+
+
+
+
+/* css flex-properties */

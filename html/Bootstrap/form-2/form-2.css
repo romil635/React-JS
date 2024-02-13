@@ -1,0 +1,18 @@
+body{
+    background: skyblue;
+}
+
+h4{
+    text-align: center;
+}
+
+.one{
+    height: 400px;
+    width: 500px;
+    border: 2px solid whitesmoke;
+    margin: auto;
+    margin-top: 130px;
+}
+.btn{
+    margin-left: 210px;
+}

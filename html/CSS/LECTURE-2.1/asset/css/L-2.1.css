@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');   
+
+/*  
+    CSS FONT PROPERTIES
+	CSS TEXT PROPERTIES
+	CSS VERTICLE ALIGN
+    CSS WHITE SPACE
+    CSS VISIBILITY
+*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/* css font properties */
+
+/* 
+
+1.font-family / Google font
+2.font-size
+3.font-style
+4.font-variant
+5.font-weight
+6.line-height 
+
+*/
+
+
+.font-family{
+    font-family: 'Young Serif', serif;
+    font-size:40px;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+
+/*css text-properties */
+
+/*
+1.Text-color
+2.Text-alignment
+3.Text-decoration
+4.Text-transformation
+5.Text-indentation
+6.Letter spacing
+7.Word spacing
+8.Text-direction
+9.Text-shadow
+*/
+
+
+p{
+    color:chocolate;            
+    font-size:20px;
+    text-align:justify; 
+    /* text-decoration: wavy line-through red; */
+    /* text-decoration: none; */
+    /* text-transform: lowercase; */
+    /* text-indent: 200px; */
+    /* letter-spacing: 10px; */
+    /* word-spacing: 20px; */
+    /* direction: rtl; */
+    /* unicode-bidi:plaintext; */
+    /* text-shadow: 10px 10px 1px green; */
+}
+
+
+
+
+
+
+/* css verticle alignment */
+
+
+/* p{
+    font-size: 60px;
+    text-decoration: underline line-through overline;
+}
+img{
+    vertical-align: text-top;
+} */
+
+
+
+
+
+/* css white space */
+
+/* .white-space{
+    white-space: pre;
+}
+ */
+
+
+
+
+/* css visibility */
+
+div{
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+    background-color: orange;
+    text-align: center;
+    visibility: hidden;
+}
+
+div p{
+    color:black;
+}
+
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    visibility: visible;
+}
+
+

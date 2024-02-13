@@ -1,0 +1,23 @@
+.radio{
+    margin-left: 190px;
+}
+
+/* .Gender{
+    margin-left: 50px;
+} */
+
+/* h3{
+    text-align: center;
+} */
+
+.form{
+    border-radius: 10px;
+    height: 700px;
+    width: 1450px;
+   margin:40px;
+    background-color: white;
+}
+
+body{
+    background-color:rgb(126,18,18);
+}
