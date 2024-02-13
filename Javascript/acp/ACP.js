@@ -11,6 +11,7 @@
 */
 
 {
+    
     alert("Hello Aniruddh");
     window.alert("this is javascript");
 }
