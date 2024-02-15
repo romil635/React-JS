@@ -1,6 +1,6 @@
 body
 {
-    background-color: #FAF9F6;
+    background-color:powderblue;
 }
 
 
@@ -12,7 +12,7 @@ body
 
 .card-wrapper .post-wrapper .card .pop-text small
 {
-    border-radius: 12px;
+    border-radius: 50%;
     background-color: #FAF9F6;
     padding: 3px 5px;
     font-size: 0.8rem;
