@@ -98,6 +98,7 @@
         let random = Math.random() * (200 - 23) + 1;
         let random1 = Math.random() * (200 - 23) + 1;
 
+    
         console.log("The Random Number is", random);
         console.log("The Random Number is", random1);
 
@@ -135,5 +136,8 @@
 /* Write a JavaScript conditional statement to find the sign of the product of three numbers. Display an alert box with the specified sign. */
 
 {
-    
+ let a=1;
+ let b=2;
+ let c=3;
+ let 
 }
