@@ -20,8 +20,8 @@
 
 {
     function Fahrenheit(){
-        let Celsius = 10.00;
-        let F = 0;
+        let Celsius = 70.00;
+        
 
         console.log("Fahrenheit is " , (Celsius * 9/5) + 32 ); 
 
@@ -70,7 +70,7 @@
         }
         return count;
     }
-    console.log("The Total Number Of Vowels is", num("Hello Beta!"));
+    console.log("The Total Number Of Vowels is", num("Hello Javascripat!"));
 }
 
 //---------6--------//
@@ -78,12 +78,12 @@
 
 {
     function SI(){
-        let p = 10000;
-        let r = 5;
-        let t = 5;
+        let r = 1000;
+        let o = 5;
+        let m = 3;
         let si;
 
-        si = (p * r * t)/100;
+        si = (r * o * m)/100;
         
         return si;
     }
@@ -95,8 +95,8 @@
 {
     function random(){
         
-        let random = Math.random() * (200 - 23) + 1;
-        let random1 = Math.random() * (200 - 23) + 1;
+        let random = Math.floor() * (200 - 23) + 1;
+        let random1 = Math.floor() * (200 - 23) + 1;
 
     
         console.log("The Random Number is", random);
@@ -104,6 +104,7 @@
 
     }
     random();
+
 }
 //--------8--------//
 /* Write a JavaScript program to display the current day and time in the following format. */
@@ -136,8 +137,34 @@
 /* Write a JavaScript conditional statement to find the sign of the product of three numbers. Display an alert box with the specified sign. */
 
 {
- let a=1;
- let b=2;
- let c=3;
- let 
+    {    
+        let a = prompt("Enter Value With Sign: "); 
+        let b = prompt("Enter Value With Sign: "); 
+        let c = prompt("Enter Value With Sign: ");
+    
+        if(a>0 && b>0 && c>0){
+            alert("Sign is '+ + +'");
+        }
+        else if(a<0 && b>0 && c>0){
+            alert("Sign is '- + +'");
+        }
+        else if(a>0 && b<0 && c>0){
+            alert("Sign is '+ - +'");
+        }
+        else if(a>0 && b>0 && c<0){
+            alert("Sign is '+ + -'");
+        }
+        else if(a>0 && b<0 && c<0){
+            alert("Sign is '+ - -'");
+        }
+        else if(a<0 && b>0 && c<0){
+            alert("Sign is '- + -'");
+        }
+        else if(a<0 && b<0 && c>0 ){
+            alert("Sign is '- - +'");
+        }
+        else{
+            alert("Sign is '- - -'");
+        }
+    }
 }
