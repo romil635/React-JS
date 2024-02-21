@@ -1,0 +1,107 @@
+:root{
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+}
+.col{
+    background-color: var(--bs-blue);
+    border:2px solid  white;
+    text-align: center;
+}
+.col-1{
+    background-color: var(--bs-danger);
+    border:2px solid  white;
+    text-align: center;
+
+}
+.col-2{
+    background-color: var(--bs-cyan);
+    border:2px solid  white;
+    text-align: center;
+
+}
+.col-3{
+    background-color: var(--bs-yellow);
+    border:2px solid  white;
+    text-align: center;
+
+}
+.col-4{
+    background-color: var(--bs-teal);
+    border:2px solid  white;
+    text-align: center;
+
+}
+.col-5{
+    background-color: var(--bs-red);
+    border:2px solid  white;
+    text-align: center;
+
+}
+.col-6{
+    background-color: var(--bs-secondary);
+    border:2px solid  white;
+    text-align: center;
+}
+.col-7{
+    background-color: var(--bs-purple);
+    border:2px solid  white;
+    text-align: center;
+}
+.col-8{
+    border:2px solid  white;
+    background-color: var(--bs-primary);
+    text-align: center;
+}
+.col-9{
+    border:2px solid  white;
+    background-color: var(--bs-pink);
+    text-align: center;
+}
+.col-10{
+    border:2px solid  white;
+    background-color: var(--bs-orange);
+    text-align: center;
+}
+.col-11{
+    border:2px solid  white;
+    background-color: var(--bs-teal);
+    text-align: center;
+}
+.col-12{
+    border:2px solid  white;
+    background-color: var(--bs-cyan);
+    text-align: center;
+}
+.row{
+    border:2px solid  white;
+    background-color: var(--bs-gray);;
+}
