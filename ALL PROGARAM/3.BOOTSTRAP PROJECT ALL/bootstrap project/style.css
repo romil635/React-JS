@@ -43,8 +43,7 @@ header small::selection
 header{
     margin-bottom: 7rem;
     min-height: 100vh;
-    /* background-color: #0dcaf0; */
-    background-color: #f5df4e;
+    background-color: #82e6cd;
 }
 
 
@@ -117,7 +116,7 @@ header{
 
 .navbar .nav-slider-body .slider-Btns li a:hover
 {
-    color:#0dcaf0;
+    color: #82e6cd;
 }
 
 .navbar .nav-slider-body .slider-links li .btn i
@@ -139,22 +138,22 @@ header{
 
 .navbar .nav-slider-body .slider-links li .btn:hover .fa-facebook
 {
-    color: #3b5998;
+    color:  #82e6cd;
 }
 
 .navbar .nav-slider-body .slider-links li .btn:hover .fa-instagram
 {
-    color: #3f729b;
+    color:  #82e6cd;
 }
 
 .navbar .nav-slider-body .slider-links li .btn:hover .fa-linkedin-in
 {
-    color: #0e76a8;
+    color:  #82e6cd;
 }
 
 .navbar .nav-slider-body .slider-links li .btn:hover .fa-dribbble
 {
-    color: #ea4c89;
+    color:  #82e6cd;
 }
 
 
@@ -368,7 +367,7 @@ header .header-box .head-drop-btn .btn-link a
     width: 2.5rem;
     height: 2.5rem;
     color: #fff;
-    background-color: #555555;
+    background-color: #82e6cd;
 }
 
 .color-wrapper .row .color-btn label i
@@ -401,7 +400,7 @@ header .header-box .head-drop-btn .btn-link a
 
 .color-wrapper .row .color-code ul li:nth-of-type(1)
 {
-    background-color: #f5df4e;
+    background-color: #82e6cd;
 }
 
 .color-wrapper .row .color-code ul li:nth-of-type(2)
@@ -436,7 +435,7 @@ header .header-box .head-drop-btn .btn-link a
 
 .color-wrapper .row .color-code ul li:nth-of-type(8)
 {
-    background-color: #f5df4e;
+    background-color: #82e6cd;
 }
 
 /* =================================== main ========================*/
@@ -456,13 +455,13 @@ main .up-btn a
     padding: 6px 10px;
     display: inline-block;
     color: #ffffff;
-    background-color: #bcbbbb55;
+    background-color:  #82e6cd;
     transition: all 0.3s ease-in-out;
 }
 
 main .up-btn a:hover
 {
-    background-color: #f5df4e;
+    background-color: #82e6cd;
     color: #000;
 }
 
@@ -477,7 +476,7 @@ main .up-btn a:hover
 .FAQ .FAQ-wrapper .row .FAQ-heading h5,
 .client-speak .row .cskp-heading h6
 {
-    background-color: #f5df4e;
+    background-color: #82e6cd;
     display: inline-block;
     padding: 2px 4px;
     /* font-size: 1.2rem; */
@@ -495,7 +494,7 @@ main .up-btn a:hover
 
 .about-S1 .ab-deta .ab-text h1 span
 {
-    border-bottom:2px solid #f5df4e;
+    border-bottom:2px solid;
 }
 
 .about-S1 .ab-deta .ab-text p
@@ -523,7 +522,7 @@ main .up-btn a:hover
     display: block;
     height: 70%;
     width: 75%;
-    background-color: #f5df4e;
+    background-color: #82e6cd;
 }
 
 
@@ -536,7 +535,7 @@ main .up-btn a:hover
 
 .about-S1 .ab-tags .col-6 h6
 {
-    color: #8E9AB6;
+    color: #82e6cd;
 }
 
 
@@ -588,12 +587,12 @@ main .up-btn a:hover
 .what-i-do .row .col-md-6 .W-box .icon i
 {
     font-size: 3.4rem;
-    color: #f5df4e;
+    color: #82e6cd;
 }
 
 .what-i-do .row .col-md-6 .W-box p
 {
-    color: #4C4D4D;
+    color: #82e6cd;
 }
 
 /*  section - 3 resume  */
@@ -606,7 +605,7 @@ main .up-btn a:hover
 .resume .row .my-education .re-deta,
 .resume .row .my-experience .re-deta
 {
-    border-left: 2px solid #f5df4e;
+    border-left: 2px solid;
 }
 
 /* 
@@ -620,7 +619,7 @@ main .up-btn a:hover
 .resume .row .my-education .re-deta .col-12 .re-text,
 .resume .row .my-experience .re-deta .col-12 .re-text
 {
-    color: #8e9a9d;
+    color:  #82e6cd;
     line-height: 2rem;
 }
 
@@ -643,7 +642,7 @@ main .up-btn a:hover
 {
     display: block;
     width:100%;
-    background-color: #f5df4e;
+    background-color: #82e6cd;
     border-radius: 15px 0px 0px 15px ;
     padding:4px;
 }
@@ -687,7 +686,7 @@ main .up-btn a:hover
     margin: auto 8px;
     display:block;
     word-wrap:none;
-    color: #707070;
+    color: #82e6cd;
     transition: all 0.3s linear;
 }
 
@@ -747,7 +746,7 @@ main .up-btn a:hover
 
 .portfolio .row .col-12 .port-img-wrapper .port-img-box a .img-card h1
 {
-    color: #f5df4e;
+    color: #82e6cd;
 }
 
 .portfolio .row .col-12 .port-img-wrapper .port-img-box a .img-card .text-font
@@ -774,13 +773,13 @@ main .up-btn a:hover
 .hire-me .hire-heading .hire-button .btn
 {
     padding: 16px 50px;
-    background-color: #f5df4e;
+    background-color: #82e6cd;
     transition: all 0.3s ease-in-out;
 }
 
 .hire-me .hire-heading .hire-button .btn:hover
 {
-    background-color: #00acee;   
+    background-color: #82e6cd;
 }
 
 
@@ -839,7 +838,7 @@ main .up-btn a:hover
     top: 0%;
     left: 1.5%;
     bottom: 0%;
-    background-image:url(asset/icons8-chevron-down-30.png);
+    background-image:url(asset/asset\ 8.png);
 }
 
 
@@ -859,7 +858,7 @@ main .up-btn a:hover
 /* section - 7  Client Speak  */
 
 .client-speak{
-    background-color:#939597;
+    background-color: #82e6cd;
     padding: 90px 0px 30px 0px ;
 }
 
@@ -996,7 +995,7 @@ main .up-btn a:hover
 
 .client-speak .carousel .carousel-wrapper .carousel-slide .carousel-box .caro-heading p
 {
-    color: #dee3e4;
+    color: #82e6cd;
 }
 
 
@@ -1005,7 +1004,7 @@ main .up-btn a:hover
 
 .contact-me
 {
-    background-color: #f5df4e;
+    background-color:;
     padding: 60px 0px ;
 }
 
@@ -1033,38 +1032,38 @@ main .up-btn a:hover
 
 .contact-me .row .contact-deta .cont-links ul li .btn i
 {
-    color: #4C4D4D;
+    color: #82e6cd;
     transition: all 0.3s ease-in-out;
 }
 
 
 .contact-me .row .contact-deta .cont-links ul li:nth-of-type(1) .btn i:hover
 {
-    color: #00acee;
+    color: #82e6cd;
     transform: scale(1.3);
 }
 
 .contact-me .row .contact-deta .cont-links ul li:nth-of-type(2) .btn i:hover
 {
-    color: #3b5998;
+    color: #82e6cd;
     transform: scale(1.3);
 }
 
 .contact-me .row .contact-deta .cont-links ul li:nth-of-type(3) .btn i:hover
 {
-    color: #3f729b;
+    color: #82e6cd;
     transform: scale(1.3);
 }
 
 .contact-me .row .contact-deta .cont-links ul li:nth-of-type(4) .btn i:hover
 {
-    color: #000;
+    color:  #82e6cd;
     transform: scale(1.3);
 }
 
 .contact-me .row .contact-deta .cont-links ul li:nth-of-type(5) .btn i:hover
 {
-    color: #ea4c89;
+    color:  #82e6cd;
     transform: scale(1.3);
 }
 
@@ -1116,7 +1115,7 @@ footer
 
 footer .row .col-12 p a
 {
-    color: #f5df4e;
+    color: #82e6cd;
     text-decoration: underline;
 }
 

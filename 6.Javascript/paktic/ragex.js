@@ -15,6 +15,8 @@
  
 }
 
+
+
 // {
 //   const regex2 = /(\d{2})\D(\d{2})(\d{2})(\d{2})(\d{2})/g;
 //   const result3 = regex2.exec('My phone number is: 12 12121212.');
