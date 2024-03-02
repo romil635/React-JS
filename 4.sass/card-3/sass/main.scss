@@ -1,0 +1,134 @@
+@import 'variable';
+
+
+
+/*1. @at-root */
+
+// .box-1{
+//     height: 200px;
+//     width: 200px;
+//     background-color: pink;
+//     @at-root
+//     .box-2{
+//          display: flex;
+//          justify-content: center;
+//          text-align: center;
+//          @at-root
+//          .box-4{
+//               overflow: hidden;
+//               text-align: center;
+//          }
+//     }
+// }
+
+body {
+    background-color: $bg-3;
+    display: flex;
+    justify-content: center;
+
+    // align-items: center;
+    @at-root .round-1 {
+        height: $h-200;
+        width: $w-200;
+        background-color: $bg-1;
+        border-radius: $border-radius-50;
+        position: relative;
+        // top:40px;
+        left: -50px;
+
+        @at-root .round-2 {
+            height: $h-200;
+            width: $w-200;
+            background-color: $bg-2;
+            border-radius: $border-radius-50;
+            position: relative;
+            right: -250px;
+            top: -160px;
+            z-index: -1;
+
+            @at-root .box-1 {
+                height: $h-400;
+                width: $w-300;
+                border-radius: $border-radius-1;
+                color: $color-1;
+                text-align: center;
+                padding: $p-2;
+                backdrop-filter: blur(20px);
+                position: relative;
+                top: -60px;
+                left: 40px;
+
+                @at-root .img-1 img {
+                    height: $h-100;
+                    width: $h-100;
+                    border: $border-1;
+                    border-radius: $border-radius-50;
+
+                    @at-root .icon {
+                        display: flex;
+                        justify-content: center;
+
+                        @at-root .span-1 {
+                            padding-bottom: $p-1;
+
+                            @at-root .icon-1 {
+                                height: $h-40;
+                                width: $w-40;
+                                background-color: gray;
+                                color: red;
+                                margin: 10px;
+                                border-radius: $border-radius-50;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                @at-root .icon-2 {
+                                    height: $h-40;
+                                    width: $w-40;
+                                    background-color: gray;
+                                    margin: 10px;
+                                    color: blue;
+                                    border-radius: $border-radius-50;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    @at-root .icon-3 {
+                                        height: $h-40;
+                                        width: $w-40;
+                                        background-color: gray;
+                                        margin: 10px;
+                                        color: yellow;
+                                        border-radius: $border-radius-50;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+
+                                        @at-root .icon-4 {
+                                            height: $h-40;
+                                            width: $w-40;
+                                            background-color: gray;
+                                            margin: 10px;
+                                            color: rgb(16, 239, 16);
+                                            border-radius: $border-radius-50;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            @at-root button {
+                                                padding: $p-1 $p-3;
+                                                margin: 10px;
+                                                backdrop-filter: blur(90px);
+                                            }
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
