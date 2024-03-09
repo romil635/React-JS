@@ -31,76 +31,76 @@ new Date(year,month,day,hours,minutes,seconds)
 */
 
 
-let Date1 = new Date()
-console.log(Date1)
+// let Date1 = new Date()
+// console.log(Date1)
 
-let Date2 = new Date("03-17-2002")
-console.log(Date2)
+// let Date2 = new Date("03-17-2002")
+// console.log(Date2)
 
-let Date3 = new Date(2023, 4)
-console.log(Date3)
+// let Date3 = new Date(2023, 4)
+// console.log(Date3)
 
-let Date4 = new Date(2023, 4, 26)
-console.log(Date4)
+// let Date4 = new Date(2023, 4, 26)
+// console.log(Date4)
 
-let Date5 = new Date(2023, 4, 26, 16)
-console.log(Date5)
+// let Date5 = new Date(2023, 4, 26, 16)
+// console.log(Date5)
 
-let Date6 = new Date(2023, 4, 26, 16, 12)
-console.log(Date6)
+// let Date6 = new Date(2023, 4, 26, 16, 12)
+// console.log(Date6)
 
-let Date7 = new Date(2023, 4, 26, 16, 12, 59)
-console.log(Date7)
+// let Date7 = new Date(2023, 4, 26, 16, 12, 59)
+// console.log(Date7)
 
-let Date8 = new Date(120000)
-console.log(Date8);
+// let Date8 = new Date(120000)
+// console.log(Date8);
 
 
 /* javascript ISO standard time */
 
-{ 
-    const dates = new Date(2023, 3, 16, 6, 15, 20)
-    console.log(dates)
-    console.log(dates.toString())
-    console.log(dates.toDateString())
-    console.log(dates.toUTCString())
-    console.log(dates.toISOString())
-}
+// { 
+//     const dates = new Date(2023, 3, 16, 6, 15, 20)
+//     console.log(dates)
+//     console.log(dates.toString())
+//     console.log(dates.toDateString())
+//     console.log(dates.toUTCString())
+//     console.log(dates.toISOString())
+// }
 
 /* JavaScript Date Formats */
 
 /* ISO Date , Short Date  , Long Date */
 
-{
-    const dates = new Date("2024")
-    console.log(dates)
-}
+// {
+//     const dates = new Date("2024")
+//     console.log(dates)
+// }
 
 /* ShortDate */
 
 {
-    const dates = new Date("03/25/2023")
-    console.log(dates)
+    // const dates = new Date("03/25/2023")
+    // console.log(dates)
 }
 
 /* LongDate */
 
-{
-    const dates = new Date("march 17 2012")
-    console.log(dates)
-} 
+// {
+//     const dates = new Date("march 17 2012")
+//     console.log(dates)
+// } 
 
-{
-    const dates = new Date("17 march 2023")
-    console.log(dates)
-}
+// {
+//     const dates = new Date("17 march 2023")
+//     console.log(dates)
+// }
 
-/*  Date Input - Parsing Dates */
+// /*  Date Input - Parsing Dates */
 
-{
-    let msec = Date.parse("March 17, 2002")
-    console.log(msec)
-}
+// {
+//     let msec = Date.parse("March 17, 2002")
+//     console.log(msec)
+// }
 
 
 /* JavaScript Get Date Methods 
@@ -118,65 +118,65 @@ getTime() Get time (milliseconds since January 1, 1970)
 */
 
 
-let Date9  = new Date()
-console.log(Date9)
+// let Date9  = new Date()
+// console.log(Date9)
 
-let Date10  = Date9.getFullYear()
-console.log(Date10)
+// let Date10  = Date9.getFullYear()
+// console.log(Date10)
 
-let Date11 = Date9.getMonth()
-console.log(Date11)
+// let Date11 = Date9.getMonth()
+// console.log(Date11)
 
-let Date12 = Date9.getDate()
-console.log(Date12)
+// let Date12 = Date9.getDate()
+// console.log(Date12)
 
-let Date13  = Date9.getDay()
-console.log(Date13)
+// let Date13  = Date9.getDay()
+// console.log(Date13)
 
-let Date14 = Date9.getHours()
-console.log(Date14)
+// let Date14 = Date9.getHours()
+// console.log(Date14)
 
-let Date15 = Date9.getMinutes()
-console.log(Date15)
+// let Date15 = Date9.getMinutes()
+// console.log(Date15)
 
-let Date16 = Date9.getSeconds()
-console.log(Date16)
+// let Date16 = Date9.getSeconds()
+// console.log(Date16)
 
-let Date17  = Date9.getMilliseconds()
-console.log(Date17)
+// let Date17  = Date9.getMilliseconds()
+// console.log(Date17)
 
-let Date18 = Date9.getTime()
-console.log(Date18)
+// let Date18 = Date9.getTime()
+// console.log(Date18)
 
 
-/*  JavaScript Set Date Methods 
+// /*  JavaScript Set Date Methods 
 
-setDate() Set the day as a number (1-31)
-setFullYear() Set the year (optionally month and day)
-setHours() Set the hour (0-23)
-setMilliseconds() Set the milliseconds (0-999)
-setMinutes() Set the minutes (0-59)
-setMonth() Set the month (0-11)
-setSeconds() Set the seconds (0-59)
-setTime() Set the time (milliseconds since January 1, 1970)
+// setDate() Set the day as a number (1-31)
+// setFullYear() Set the year (optionally month and day)
+// setHours() Set the hour (0-23)
+// setMilliseconds() Set the milliseconds (0-999)
+// setMinutes() Set the minutes (0-59)
+// setMonth() Set the month (0-11)
+// setSeconds() Set the seconds (0-59)
+// setTime() Set the time (milliseconds since January 1, 1970)
 
-*/
+// */
 
-let Date19 = new Date()
-console.log(Date19)
+// let Date19 = new Date()
+// console.log(Date19)
 
-let Date20 = Date19.setFullYear(2020)
-console.log(Date20)
-console.log(Date19)
+// let Date20 = Date19.setFullYear(2020)
+// console.log(Date20)
+// console.log(Date19)
 
-let Date21  = Date19.setDate(29)
-console.log(Date21)
+// let Date21  = Date19.setDate(29)
+// console.log(Date21)
 
-let Date22 = Date19.setHours(45)
-console.log(Date22)
+// let Date22 = Date19.setHours(45)
+// console.log(Date22)
 
-let Date23  = Date19.setMonth(12)
-console.log(Date23)
+// let Date23  = Date19.setMonth(12)
+// console.log(Date23)
 
 
 
