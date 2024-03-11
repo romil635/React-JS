@@ -1,8 +1,12 @@
-{
-    setInterval(
-        function () {
-            let date = new Date().toLocaleTimeString();
-            console.log(date);
-        },4000
-    )
-}
+// {
+//     setInterval(
+//         function () {
+//             let date = new Date().toLocaleTimeString();
+//             console.log(date);
+//         },4000
+//     )
+// }
+
+
+
+
