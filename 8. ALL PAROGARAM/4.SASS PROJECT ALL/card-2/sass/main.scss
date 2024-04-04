@@ -1,0 +1,132 @@
+@import 'veriable';
+
+
+@mixin boxes{
+    height: $h-12;
+    width: $w-12;
+    background-color: $bg-2;    
+    display: flex;
+    justify-content: center;
+    @content;
+   }
+   
+   .boxes
+   {
+       @include boxes;
+   }
+@mixin boxes-1
+{
+   height: $h-6-3;
+   width: $w-4;
+   background-color: $bg-1;
+   border-radius: $radius-4;
+   @content;
+}
+.boxes-1
+{
+    @include boxes-1;
+}
+
+@mixin image
+{
+    height: $h-2;
+    width: $w-4;
+    border-radius: $radius-4 $radius-4 $radius-0 $radius-0;
+    @content;
+}
+
+.ants img{
+    @include image;
+}
+
+@mixin gril
+{
+    height: $h-2;
+    width: $w-2;
+    border-radius: $radius-50;
+    position: relative;
+    top: $top-120;
+    left:$left-25;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 15px 15px rgb(208, 205, 205);
+    @content;
+
+}
+.gril img
+{
+    @include gril;
+}
+
+@mixin box-2
+{
+    position: relative;
+    top: $top-120 ;
+    text-align: center;
+    padding: $p-10 $p-40 $p-40 $p-40;
+    @content;
+}
+
+.box-2
+{
+    @include box-2;
+}
+@mixin h1 {
+    display: inline;
+    font-size: 2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight:900 ;
+    // padding: $p-20 $p-50;
+}
+
+h1{
+    @include h1;
+}
+
+@mixin button
+{
+    background-color: $bg-3;
+    padding: $p-10 $p-100;
+    border-radius: $radius-4;
+    font-weight: 500;
+}
+
+button
+{
+   @include button;
+
+}
+
+@mixin rows{
+    display: flex;
+    justify-content: space-around;
+}
+.text
+{
+    padding: $p-20;
+}
+.row 
+{
+    @include rows;
+}
+.row h1{
+    color: blue;
+}
+span{
+    color: rgb(189, 180, 180);
+}
+   
+//    .box-1{
+//      @include font-size(200px){
+//        text-align: center;
+//      }
+//    }
+   
+//    .box-2{
+//      @include font-size(100px){
+//        color:white;
+//      }
+//    }

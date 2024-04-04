@@ -1,0 +1,67 @@
+/* Navbar */
+.nav {
+  background: rgb(100, 212, 237);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  
+}
+
+.nav .logo a img {
+  height: 80px;
+}
+
+.items ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.items ul li {
+  margin-right: 50px;
+}
+.items ul li a{
+    font-size: 24px;
+    font-weight: 500;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* Article */
+
+.art {
+  padding: 20px;
+}
+.img1 {
+  height: 200px;
+  width: 200px;
+}
+.img2 {
+  height: 250px;
+  width: 250px;
+}
+.react{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.tax1{
+  display: flex;
+}
+.tax2{
+  display: flex;
+}
+.tax3{
+  display: flex;
+}
+/* Footer */
+
+.Footer {
+  background: cornflowerblue;
+  height: 200px;
+}
+
+.change{
+  display: flex;
+}

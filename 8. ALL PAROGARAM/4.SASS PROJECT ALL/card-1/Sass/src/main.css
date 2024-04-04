@@ -1,0 +1,79 @@
+ body {
+  padding-top: 50px;
+  background-color: yellow;
+}
+
+h3 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  padding-top: 0;
+}
+
+button {
+  margin-left: 100px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-right: 150px;
+}
+.maincontainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+
+  
+  
+}
+
+.twitter {
+  height: 470;
+  width: 350px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px 30px;
+}
+
+.icon {
+  margin-top: 20px;
+  margin-left: 140px;
+}
+
+.instagram {
+  height: 470px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius:  30px;
+  background-color: rgb(227, 59, 140);
+  color: white;
+}
+
+.youtube {
+  height: 470px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px 10px ;
+}
+
+i {
+  font-size: 60px; 
+} 
+
