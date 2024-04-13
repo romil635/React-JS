@@ -1,0 +1,2597 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif
+}
+
+.container {
+   max-width: calc(100% - 20%);
+   margin: auto;
+   position: relative;
+   height: inherit;
+}
+
+/* HEADER PART STARTING */
+.bg-top-color {
+   background-color: black;
+}
+
+.topbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0px;
+   font-size: 13px;
+   font-weight: 900;
+}
+
+.topbar-text p {
+   color: #d3d1d1;
+}
+
+.topbar-text p i {
+   color: orange;
+}
+
+.top-select {
+   display: flex;
+   border: 0;
+}
+
+.selected select {
+   background-color: black;
+   color: white;
+   outline: 0px;
+   border: 0px;
+   border-right: 1px solid rgb(138, 137, 137);
+}
+
+
+/* NAVIGATION START */
+/* Navbar */
+.border {
+   border-bottom: 1px solid gray;
+   opacity: 1;
+   top: 0;
+   visibility: visible;
+}
+
+.navigation {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 0;
+
+}
+
+/* 1.logo */
+.logo {
+   width: 15%;
+}
+
+.navi-select select:focus {
+   outline: 0px;
+}
+
+/*2. SERACH botton */
+.search-input {
+   width: calc(100% - 65%);
+   border: 2px solid #0989ff;
+   display: flex;
+   align-items: center;
+}
+
+.text-input input {
+   width: 100%;
+   border: 0;
+   padding: 5px 50px 5px 15px;
+}
+
+.text-input:focus-within input {
+   border: 0;
+   outline: none;
+}
+
+.navi-select {
+   width: 40%;
+   border-left: 2px solid rgb(188, 185, 185);
+   margin-right: 15px;
+   padding-right: 8%;
+}
+
+.navi-select select {
+   border: 0;
+   border: none;
+   padding: 0px 10%;
+}
+
+.search-icon {
+   background-color: #0989ff;
+   color: #ffffff;
+   padding: 1% 5%;
+   font-size: 25px;
+}
+
+/* 3.USER ID*/
+.user-info {
+   width: 15%;
+}
+
+.user-image {
+   height: 50px;
+   width: 50px;
+   border-radius: 100%;
+   border: 2px solid rgb(232, 226, 226);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.user-image i {
+   font-size: 25px;
+   color: gray;
+}
+
+.user-info {
+   display: flex;
+   align-items: center;
+}
+
+.user-text {
+   margin-left: 10px;
+}
+
+.hello {
+   color: rgb(165, 162, 162);
+   font-size: 12px;
+}
+
+.Account {
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1;
+}
+
+/* 4.icon */
+.icon {
+   width: calc(100%-10%);
+   right: 0;
+   position: relative;
+   display: flex;
+   align-items: end;
+}
+
+.icon-1 {
+   font-size: 20px;
+   margin: 10px;
+}
+
+.icon-2 {
+   font-size: 20px;
+   margin: 10px;
+}
+
+.icon-3 {
+   font-size: 20px;
+   margin: 10px;
+}
+
+.icon-4 {
+   font-size: 20px;
+   margin: 10px;
+}
+
+.icon span i:hover {
+   color: #0989ff;
+}
+
+.red1 {
+   position: absolute;
+   background-color: crimson;
+   height: 5%;
+   width: 5%;
+   border-radius: 100%;
+   color: white;
+   font-size: 12px;
+   border: 2px solid white;
+   align-items: center;
+   text-align: center;
+   display: block;
+}
+
+
+/* NAVBAR */
+#inherhead2 {
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+}
+
+/* 1.drop down box */
+.allcata {
+   display: flex;
+}
+
+.fa-solid {
+   position: relative;
+   top: 2px;
+}
+
+.allcatachild {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: white;
+   transition: all 0.3s;
+   position: relative;
+}
+
+.button {
+   padding: 11px 39px;
+   color: white;
+   background-color: #0989ff;
+   display: flex;
+   font-size: 15px;
+}
+
+.button ul {
+   margin-right: 60px;
+   margin-left: 12px;
+}
+
+.button:hover {
+   background-color: black;
+   color: white;
+   cursor: pointer;
+}
+
+.allcata:hover .head2drop {
+   display: block;
+}
+
+.head2drop {
+   display: none;
+   position: absolute;
+   background-color: white;
+   padding: 15px;
+   width: 257px;
+   border: 1px solid black;
+   top: 40px;
+   z-index: 10;
+}
+
+.allCataList {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 15px;
+   font-weight: 500;
+   padding: 10px 0px;
+   cursor: pointer;
+}
+
+.allCataList img {
+   width: 30px;
+   height: 30px;
+}
+
+.sideList {
+   position: absolute;
+   left: 100%;
+   top: 0;
+   width: 200px;
+   background-color: white;
+   padding: 10px;
+   border: 1px solid black;
+   display: none;
+}
+
+.sideList li {
+   font-size: 20px;
+   padding: 5px;
+}
+
+.allCataList:hover .sideList {
+   display: block;
+}
+
+/* *2. Nav item  */
+.nav-item {
+   width: auto;
+   display: flex;
+   margin: auto;
+   position: relative;
+}
+
+.head2-dropdown {
+   padding: 8px;
+   font-size: 14px;
+   transition: all 0.3s;
+   font-weight: 600;
+   position: relative;
+   flex-wrap: wrap;
+   padding-right: 15px;
+}
+
+.head2-dropdown:hover {
+   color: #0989ff;
+   cursor: pointer;
+}
+
+/* 3.contact number */
+.head2-contact {
+   width: auto;
+   display: flex;
+   align-items: end;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   right: 0;
+}
+
+.head2-contact p span {
+   font-size: 12px;
+   color: rgb(105, 102, 102);
+}
+
+.head2-contact p {
+   font-size: 14px;
+}
+
+.head2-contact i {
+   margin-right: 10px;
+}
+
+.head2-contact p:hover {
+   color: #0989ff;
+}
+
+/* main header part */
+.best-bg {
+   background-color: #115061;
+   height: auto;
+   position: relative;
+   padding-bottom: 2%;
+}
+
+.bg-desing img {
+   mix-blend-mode: luminosity;
+   opacity: 0.1;
+   position: absolute;
+   right: 0;
+   top: 0;
+}
+
+.bg-text {
+   color: white;
+   position: relative;
+   align-items: center;
+   width: 40%;
+   flex-wrap: wrap;
+}
+
+.bg-text span {
+   font-size: 16px;
+}
+
+.bg-text h1 {
+   font-size: 56px;
+   font-weight: 900;
+   flex-wrap: wrap;
+   line-height: 1.07;
+}
+
+.bg-text p {
+   margin-top: 15px;
+   font-family: 'Oregano', cursive;
+   margin-bottom: 30px;
+   display: inline;
+   font-size: 28px;
+   font-weight: 400;
+}
+
+.bg-text p span {
+   position: relative;
+   display: inline-block;
+   color: #ffc107;
+   font-family: 'Oregano', cursive;
+   font-size: 28px;
+}
+
+.other-images-1 {
+   position: absolute;
+   right: 33%;
+   top: 7%;
+   z-index: 0;
+}
+
+.other-image-2 {
+   position: absolute;
+   left: -20px;
+   top: 40%;
+}
+
+
+.other-images-3 {
+   position: absolute;
+   bottom: 13%;
+   right: 28%;
+   z-index: -1;
+}
+
+.bg-text a {
+   padding: 12px 25px;
+   background: white;
+   border-radius: 8px;
+   color: black;
+}
+
+.bg-text a:hover {
+   border: 0.5px solid white;
+   color: white;
+   background-color: #115061;
+}
+
+.shop {
+   margin: 10px;
+}
+
+.shop-text {
+   display: block;
+   position: absolute;
+   top: 100%;
+}
+
+.shop-text i {
+   margin-left: 5px;
+   position: relative;
+   top: 3px;
+   font-size: 20px;
+}
+
+.banner {
+   display: flex;
+   height: inherit;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 20px;
+
+}
+
+.watch {
+   width: 50%;
+   margin-top: 100px;
+   margin-bottom: 50px;
+   display: flex;
+   padding-left: 15%;
+}
+
+.watch img {
+   max-width: 100%;
+   height: auto;
+}
+
+/*  MAIN PAR-1   (SECTION-1  ,SECTIONN-2) */
+.main-section-1 {
+   width: auto;
+   margin-top: 70px;
+}
+
+.main-section-2 {
+   margin-bottom: 50px;
+}
+
+.part-1 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.section-1 {
+   height: 210px;
+   width: 210px;
+   border: 1px solid rgb(181, 223, 240);
+   display: flex;
+   flex-flow: wrap;
+   background-color: rgb(223, 235, 241);
+   border-radius: 100%;
+   flex-direction: row;
+   margin-bottom: 100px;
+
+}
+
+.star {
+   color: #ffc107;
+   font-size: 12px;
+   font-weight: 500;
+}
+
+.line {
+   font-size: 12px;
+   text-decoration: line-through;
+}
+
+.rate {
+   font-size: 15px;
+   color: #0989ff;
+   font-weight: 700;
+   letter-spacing: 0.2pxlhjlp;
+}
+
+/* headphone */
+.headphone-image {
+   margin: 60px;
+   object-fit: cover;
+   position: relative;
+   align-items: center;
+}
+
+.headphone-image:hover img {
+   transform: scale(1.2);
+   transition: 0.3s;
+}
+
+.headphone-text {
+   text-align: center;
+}
+
+.headphone-text h3:hover {
+   color: #0989ff;
+}
+
+/* Moblie-tablests  */
+.Mobile-1-image {
+   margin: 65px;
+   margin-top: 50px;
+   object-fit: cover;
+   position: relative;
+}
+
+.Mobile-1-image:hover img {
+   transform: scale(1.2);
+   transition: 0.3s;
+}
+
+.Moblie-1-text {
+   text-align: center;
+}
+
+.Moblie-1-text h3:hover {
+   color: #0989ff
+}
+
+/* CPU Heat Pipes */
+.Pipes-1-image {
+   margin: 60px;
+   margin-top: 48px;
+   object-fit: cover;
+   position: relative;
+}
+
+.Pipes-1-image:hover img {
+   transform: scale(1.2);
+   transition: 0.3s;
+}
+
+.Pipes-1-text {
+   text-align: center;
+}
+
+.Pipes-1-text h3:hover {
+   color: #0989ff;
+}
+
+/* CPU Heat Pipes */
+.SmartWatch-1-image {
+   margin: 60px;
+   object-fit: cover;
+   position: relative;
+}
+
+.SmartWatch-1-image:hover img {
+   transform: scale(1.2);
+   transition: 0.3s;
+}
+
+.SmartWatch-1-text {
+   text-align: center;
+}
+
+.SmartWatch-1-text h3:hover {
+   color: #0989ff;
+}
+
+/* Bluetooth */
+.Bluetooth-1-image {
+   margin: 65px 65px 50px 65px;
+   margin-top: 30px;
+   object-fit: cover;
+   position: relative;
+}
+
+.Bluetooth-1-image:hover img {
+   transform: scale(1.1);
+   transition: 0.1s;
+}
+
+.Bluetooth-1-text {
+   text-align: center;
+}
+
+.Bluetooth-1-text h3:hover {
+   color: #0989ff;
+}
+
+/* ICON (SECTION-2)*/
+.section-2 {
+   height: 100px;
+   width: 24%;
+   display: flex;
+   background-color: rgb(236, 239, 241);
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 5px;
+}
+
+/* Free Delivary */
+.shipping-delivery-image i {
+   color: red;
+   font-size: 20px;
+   align-items: flex-start;
+   margin: 15px;
+}
+
+.shipping-delivery-text {
+   margin-left: 10px;
+}
+
+.shipping-delivery {
+   display: flex;
+   align-items: center;
+}
+
+/* Return & Refunf */
+.Return-image i {
+   color: red;
+   font-size: 20px;
+   align-items: flex-start;
+   margin: 15px;
+}
+
+.Return-text {
+   margin-left: 15px;
+}
+
+.Return {
+   display: flex;
+   align-items: center;
+}
+
+/* Member Discount*/
+.Discount-image i {
+   color: red;
+   font-size: 20px;
+   align-items: flex-start;
+   margin: 15px;
+}
+
+.Discount-text {
+   margin-left: 15px;
+}
+
+.Discount {
+   display: flex;
+   align-items: center;
+}
+
+/* support 24/7 */
+.Support-image i {
+   color: red;
+   font-size: 20px;
+   align-items: flex-start;
+   margin: 15px;
+}
+
+.Support-text {
+   margin-left: 15px;
+}
+
+.Support {
+   display: flex;
+   align-items: center;
+}
+
+
+/* Trending Products - MAIN SECTION-2 (secion-3 , section-4)*/
+.main_part_name {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+
+.asset {
+   display: flex;
+   position: relative;
+   font-size: 18px;
+   right: 0;
+   width: 30%;
+   justify-content: space-between;
+   top: -17px;
+}
+
+.asset a {
+   position: relative;
+   top: 20px;
+}
+
+.asset a {
+   color: rgb(182, 180, 180);
+   font-weight: 600;
+}
+
+.asset a:hover {
+   color: black;
+}
+
+.main_part_name a {
+   width: 50%;
+}
+
+.main_part_name h1 {
+   color: black;
+   font-size: 40px;
+}
+
+.main_part_name img {
+   color: red;
+   position: relative;
+   bottom: 25px;
+}
+
+/* headphone wirless */
+.part-2 {
+   width: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.section-3 {
+   width: 23%;
+   border: 1px solid rgb(229, 233, 233);
+   display: flex;
+   flex-flow: wrap;
+   justify-content: space-between;
+   border-radius: 5px;
+   margin-bottom: 30px;
+}
+
+.section-3:hover {
+   box-shadow: 1px 1px 3px rgb(176, 174, 174);
+}
+
+/* 1.wireless */
+
+.wireless-image img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.wireless-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.wireless-image {
+   position: relative;
+}
+
+/* Hover */
+.hover-open-content {
+   display: none;
+   position: absolute;
+   right: 20px;
+   bottom: 50px;
+   transition: 1.5s;
+}
+
+.wireless-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.wireless-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*2.  Gaming Headphone  */
+.Gaming-image img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.Gaming-image:hover:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Gaming-image {
+   position: relative;
+}
+
+/* Hover */
+.Gaming-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Gaming-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*3. Headphone with Mic*/
+.Mic-image img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.Mic-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Mic-image {
+   position: relative;
+}
+
+.out-stock {
+   position: absolute;
+   margin: 5px;
+   padding: 3px 3px;
+   color: white;
+   font-size: 12px;
+   border-radius: 5px;
+   z-index: 1;
+   background-color: crimson;
+}
+
+.stock {
+   width: 100%;
+   display: flex;
+   justify-content: end;
+}
+
+/* Hover */
+.Mic-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Mic-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*4.Galaxy Android Tablet*/
+.Galaxy-image img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.Galaxy-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Galaxy-image {
+   position: relative;
+}
+
+/* Hover */
+.Galaxy-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Galaxy-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*5. iPhone 14 Pro */
+.iphone-image img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.iphone-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.iphone-image {
+   position: relative;
+}
+
+/* Hover */
+.iphone-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.iphone-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*6. Apple iPad Air*/
+.Apple-image img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.Apple-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Apple-image {
+   position: relative;
+}
+
+/* Hover */
+.Apple-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Apple-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*7.DeepCool Air Cooler*/
+.DeepCool-image img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.DeepCool-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.DeepCool-image {
+   position: relative;
+
+}
+
+/* Hover */
+.DeepCool-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.DeepCool-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*8. Antec Air Cooler*/
+.Air-image img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.Air-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Air-image {
+   position: relative;
+}
+
+/* Hover */
+.Air-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Air-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* add part */
+/* Section-4 add */
+.section-4 {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 1%;
+   margin-bottom: 50px;
+}
+
+.add-1 {
+   overflow: hidden;
+   position: relative;
+   width:63%;
+   height: 250px;
+   border-radius: 10px;
+}
+
+.add-2 {
+   overflow: hidden;
+   position: relative;
+   width: 35%;
+   height: 250px;
+   border-radius: 10px;
+}
+
+.add-image-1 {
+   position: absolute;
+}
+
+.add-image-1:hover {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.add-image-1 img {
+   object-fit: cover;
+   object-position: right;
+   height: 250px;
+   width: 750px;
+
+}
+
+.add-image-2 img {
+   object-fit: cover;
+   object-position: right;
+   height: 250PX;
+   width: 420px;
+}
+
+.add-text-1 {
+   position: absolute;
+   padding: 50px;
+   font-size: 18px;
+   line-height: 1.5;
+}
+
+.add-text-1 h1:hover {
+   color: #0989ff;
+}
+
+.add-1 button {
+   border: none;
+   outline: none;
+   margin-left: 60px;
+   margin-top: 20px;
+}
+
+/* add 2 */
+.add-image-2 {
+   position: absolute;
+}
+
+.add-text-2 {
+   position: absolute;
+   padding: 50px;
+   font-size: 18px;
+   /* line-height: 1.3; */
+}
+
+.add-image-2:hover {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.add-text-2 h1:hover {
+   color: #0989ff;
+}
+
+.add-2 button {
+   background-color: transparent;
+   border: none;
+   outline: none;
+   margin-left: 60px;
+   margin-top: 20px;
+   z-index: 1;
+}
+
+
+
+/* * MAIN PART-3 (Section-5, section-6)  */
+.bg-color-part-3 {
+   padding-bottom: 50px;
+   background-color: rgb(236, 239, 241);
+   opacity: 0.9;
+   width: auto;
+}
+
+.main_part_name-1 {
+   position: relative;
+   margin-bottom: 75px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.main_part_name-1 h1 {
+   position: relative;
+   padding-bottom: 30px;
+   top: 40px;
+   color: black;
+   font-size: 40px;
+}
+
+.main_part_name-1 img {
+   position: absolute;
+   top: 80%;
+   left: 0;
+   z-index: -1;
+}
+
+.bg-text-1 a {
+   padding: 12px 20px;
+   background: #0989ff;
+   border-radius: 8px;
+   color: white;
+   position: relative;
+   top: 50px;
+   right: 0;
+}
+
+.bg-text-1 a:hover {
+   border: 0.5px solid white;
+   color: white;
+   background-color: black;
+}
+
+.shop-text-1 i {
+   margin-left: 5px;
+   position: relative;
+   top: 3px;
+   font-size: 20px;
+}
+
+.part-3 {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+/* section-5 */
+.Gaming_headphone {
+   height: 17%;
+   width: 32%;
+   border: 1px solid rgb(229, 233, 233);
+   justify-content: space-between;
+   border-radius: 10px;
+   background-color: white;
+   margin-bottom: 10px;
+}
+
+.section-5:hover {
+   box-shadow: 2px 2px 5px rgb(176, 174, 174);
+}
+
+/*1. Gaming_headphone */
+.Gaming_headphone-image img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%
+}
+
+.Gaming_headphone-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Gaming_headphone-image {
+   position: relative;
+   display: flex;
+   align-items: center;
+}
+
+/* Hover */
+.Gaming_headphone-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Gaming_headphone-text {
+   padding: 25px;
+   border-top: 2px solid rgb(229, 233, 233);
+}
+
+/* 2.antec_air_cooler */
+.antec_air_cooler {
+   height: 15%;
+   width: 32%;
+   border: 1px solid rgb(229, 233, 233);
+   justify-content: space-between;
+   border-radius: 10px;
+   background-color: white;
+}
+
+.antec_air_cooler-image img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%
+}
+
+.antec_air_cooler-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.antec_air_cooler-image {
+   position: relative;
+   align-items: center;
+   display: flex;
+}
+
+/* Hover */
+.antec_air_cooler-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.antec_air_cooler-text {
+   padding: 25px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*3.Sony_Lady_fitness_watch*/
+.Sony_Lady_fitness_watch {
+   height: 17%;
+   width: 32%;
+   border: 1px solid rgb(229, 233, 233);
+   justify-content: space-between;
+   border-radius: 10px;
+   background-color: white;
+}
+
+.Sony_Lady_fitness_watch-image img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.Sony_Lady_fitness_watch-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Sony_Lady_fitness_watch-image {
+   position: relative;
+}
+
+/* Hover */
+.Sony_Lady_fitness_watch-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Sony_Lady_fitness_watch-text {
+   padding: 25px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+
+/* section-6 */
+.wrap_contain {
+   width: 25%;
+   height: auto;
+   padding-bottom: 43px;
+}
+
+.sticky {
+   position: sticky;
+   top: 100px;
+}
+
+/* GADGETS */
+.Gadgets {
+   height: 350px;
+   width: 350px;
+   padding: 30px;
+   padding-bottom: 0;
+   border: 3px solid rgb(252, 34, 70);
+   border-radius: 10px;
+   overflow: hidden;
+   margin-bottom: 10px;
+}
+
+.Girl_image {
+   position: relative;
+   bottom: -31px;
+   right: -50%;
+}
+
+.Gadgets-text {
+   position: relative;
+   top: -290px;
+   width: 150px;
+}
+
+.Gadgets-text h3 {
+   position: relative;
+   margin-bottom: 15px;
+   padding-bottom: 10px;
+   border-bottom: 2px solid rgb(45, 45, 204);
+}
+
+.Gadgets span {
+   font-size: 14px;
+}
+
+.Gadgets span i {
+   margin-left: 5px;
+}
+
+.list {
+   font-size: 15px;
+   list-style-type: disc;
+   margin-left: 10px;
+   line-height: 2;
+   margin-bottom: 10px;
+}
+
+li:hover {
+   color: blue;
+}
+
+.arrow {
+   font-size: 15px;
+   font-weight: 600;
+   margin-top: 30px;
+}
+
+
+/* NOVELTY */
+.novelty-image {
+   height: auto;
+   width: auto;
+   object-fit: cover;
+   position: absolute;
+}
+
+.novelty-text {
+   z-index: 2;
+   font-size: 22px;
+   color: white;
+   position: relative;
+   padding: 30px;
+   line-height: 1.5;
+}
+
+.part-3 {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+
+.section-5 {
+   height: 460px;
+   width: 30%;
+   border: 1px solid rgb(229, 233, 233);
+   display: flex;
+   flex-flow: wrap;
+   justify-content: space-between;
+   border-radius: 5px;
+   margin-bottom: 10px;
+}
+
+.part-3-fix {
+   width: 70%;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.wireless-image-1 img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.wireless-image-1:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.wireless-image-1 {
+   position: relative;
+}
+
+.section-5:hover {
+   box-shadow: 2px 2px 5px rgb(176, 174, 174);
+}
+
+/* Hover */
+.hover-open-content-1 {
+   display: none;
+   position: absolute;
+   right: 20px;
+   bottom: 50px;
+   transition: 1.5s;
+}
+
+.wireless-image-1:hover .hover-open-content-1 {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.wireless-text-1 {
+   padding: 25px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*2.  Gaming Headphone  */
+.Gaming-image-1 img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.Gaming-image-1:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Gaming-image-1 {
+   position: relative;
+}
+
+/* Hover */
+.Gaming-image-1:hover .hover-open-content-1 {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Gaming-text-1 {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* /3. Headphone with Mic */
+.Mic-image-1 img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.Mic-image-1:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Mic-image-1 {
+   position: relative;
+}
+
+/* Hover */
+.Mic-image-1:hover .hover-open-content-1 {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Mic-text-1 {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* /4.Galaxy Android Tablet/ */
+.Galaxy-image-1 img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.Galaxy-image-1:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Galaxy-image-1 {
+   position: relative;
+}
+
+/* Hover */
+.Galaxy-image-1:hover .hover-open-content-1 {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Galaxy-text-1 {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*5. iPhone 14 Pro */
+.iphone-image-1 img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.iphone-image-1:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.iphone-image-1 {
+   position: relative;
+}
+
+/* Hover */
+.iphone-image-1:hover .hover-open-content-1 {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.iphone-text-1 {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* /6. Apple iPad Air/  */
+.Apple-image-1 img {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+}
+
+.Apple-image-1:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Apple-image-1 {
+   position: relative;
+}
+
+/* Hover */
+.Apple-image-1:hover .hover-open-content-1 {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Apple-text-1 {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+
+/* MAIN PART-4  (Section-6)*/
+.part-4 {
+   width: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   flex-flow: row;
+   margin-top: 80px;
+}
+
+.section-6 {
+   width: 100%;
+   height: auto;
+   background-color: #0989ff;
+   margin-bottom: 50px;
+   border-radius: 8px;
+}
+
+.background {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 40px;
+}
+
+.background-text {
+   color: white;
+   width: 45%;
+   position: relative;
+}
+
+.background-image {
+   width: 55%;
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+
+.background-text h1 {
+   font-size: 50px;
+   font-weight: 900;
+   margin-bottom: 20px;
+}
+
+.background-text h2 {
+   font-size: 40px;
+}
+
+.old_price {
+   font-size: 18px;
+   text-decoration: line-through;
+}
+
+.shop-botton {
+   margin-top: 50px;
+}
+
+.shop-botton a {
+   color: white;
+   background-color: black;
+   border-radius: 8px;
+   padding: 15px 45px;
+}
+
+.shop-botton a:hover {
+   color: black;
+   background-color: white;
+}
+
+.back-image-1 {
+   position: relative;
+   top: 25px;
+   z-index: 2;
+
+}
+
+.back-image-1 img {
+   width: 100%;
+   height: 100%;
+}
+
+.back-image-2 {
+   position: absolute;
+   top: 10px;
+   right: 50%;
+   z-index: 2;
+}
+
+.back-image-2 img {
+   height: calc(100% - 5%);
+   width: calc(100% - 5%);
+}
+
+
+/* Main Part-5 (section-7 , section-8)*/
+.part-5 {
+   width: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-bottom: 50px;
+}
+
+.section-7 {
+   height: 25%;
+   width: 24%;
+   display: flex;
+   flex-flow: wrap;
+   justify-content: space-between;
+   border-radius: 5px;
+}
+
+.section-7:hover {
+   box-shadow: 2px 2px 5px rgb(176, 174, 174);
+}
+
+.main_part_name-2 {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.main_part_name-2 h1 {
+   position: relative;
+   color: black;
+   font-size: 40px;
+}
+
+.main_part_name-2 img {
+   position: relative;
+   top: -25px;
+}
+
+.Arrivals_button
+{
+   display: flex;
+   justify-content: space-between;
+   width: 80px;
+   margin: 10px;
+
+}
+.Arrivals_button .button-1
+{
+   width: 35px;
+   height: 35px;
+  border:1px solid rgb(177, 174, 174);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+}
+.Arrivals_button .button-1:hover
+{
+   background-color: #0989ff;
+   color: white;
+}
+
+
+/* 1.Apple_watch */
+.Apple_watch {
+   border: 1px solid rgb(229, 233, 233);
+}
+
+.Apple_watch-image img {
+   object-fit: cover;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+.Apple_watch-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Apple_watch-image {
+   position: relative;
+}
+
+/* Hover */
+.hover-open-content {
+   display: none;
+   position: absolute;
+   right: 20px;
+   bottom: 50px;
+   transition: 1.5s;
+}
+
+.Apple_watch-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Apple_watch-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* 2. Sony_Smart_Watch  */
+.Sony_Smart_Watch {
+   border: 1px solid rgb(229, 233, 233);
+}
+
+.Sony_Smart_Watch img {
+   object-fit: cover;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+.Sony_Smart_Watch-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Sony_Smart_Watch-image {
+   position: relative;
+}
+
+/* Hover */
+.Sony_Smart_Watch-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Sony_Smart_Watch-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* 3. Sony Lady Fitness Watch */
+.Sony_Lady_Fitness_Watch {
+   border: 1px solid rgb(229, 233, 233);
+}
+
+.Sony_Lady_Fitness_Watch-image img {
+   object-fit: cover;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+.Sony_Lady_Fitness_Watch-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Sony_Lady_Fitness_Watch-image {
+   position: relative;
+}
+
+/* Hover */
+.Sony_Lady_Fitness_Watch-image:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Sony_Lady_Fitness_Watch-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/*4. Lenova */
+.Lenova {
+   border: 1px solid rgb(229, 233, 233);
+}
+
+.Lenova-image img {
+   object-fit: cover;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+.Lenova-image:hover img {
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+.Lenova-image {
+   position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hover */
+.Lenova:hover .hover-open-content {
+   display: block;
+   transform: translate(30px);
+   transform: scale(1.3);
+   transition: 2s;
+}
+
+.Lenova-text {
+   padding: 20px;
+   border-top: 1px solid rgb(229, 233, 233);
+}
+
+/* section-8 */
+.main_part_name-3 {
+   display: grid;
+   padding: 10px;
+   margin-bottom: 30px;
+}
+
+.main_part_name-3 h3 {
+   position: relative;
+   top: 50px;
+   color: black;
+   font-size: 25px;
+}
+
+.main_part_name-3 img {
+   position: relative;
+   top: 25px;
+   border-radius: 10px;
+}
+
+.part-6 {
+   display: grid;
+   grid-template-columns: auto auto auto;
+
+}
+
+/* Section-8 */
+.section-8 {
+   border-bottom: 1px solid rgb(199, 199, 199);
+   margin-right: 20px;
+}
+.grid-part-1 {
+   display: flex;
+   padding: 7%;
+}
+
+.grid-part-image {
+   height: 120px;
+   width: 100px;
+   background-color: rgb(227, 224, 224);
+   border-radius: 8px;
+   margin-right: 5%;
+}
+
+.grid-part-image img:hover {
+   transform: scale(1.2);
+   transition: 0.3s;
+}
+
+.grid-text p:hover {
+   color: #0989ff;
+}
+
+.grid-text h5:hover {
+   color: #0989ff;
+}
+
+.grid-text {
+   padding: 3%;
+   line-height: 1.4;
+}
+
+.grid-text p {
+   font-size: 12px;
+}
+
+.grid-text h5 {
+   padding-bottom: 8px;
+}
+
+.width {
+   font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN PART-7 (section-9)*/
+.part-7 {
+   width: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-bottom: 5%;
+}
+
+/* section-9*/
+.ceramics {
+   height: auto;
+   width: 31%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 50px;
+   object-fit: cover;
+}
+
+.climates {
+   height: 400px;
+   width: 31%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 50px;
+   object-fit: cover;
+}
+
+.clothes {
+   height: 400px;
+   width: 31%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 50px;
+   object-fit: cover;
+}
+
+.main_part_name-4 {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.main_part_name-4 h1 {
+   position: relative;
+   top: 50px;
+   color: black;
+   font-size: 40px;
+}
+
+.main_part_name-4 img {
+   position: relative;
+   top: 25px;
+   border-radius: 10px;
+}
+
+.ceramics-image img {
+   width: 100%;
+   object-fit: cover;
+   overflow: hidden;
+}
+
+.climates-image img {
+   width: 100%;
+   object-fit: cover;
+   overflow: hidden;
+
+}
+
+.clothes-image img {
+   width: 100%;
+   object-fit: cover;
+   overflow: hidden;
+}
+
+.shop-text-2 i {
+   margin-left: 5px;
+   position: relative;
+   top: 3px;
+   font-size: 20px;
+}
+
+.ceramics-text {
+   margin-top: 20px;
+   line-height: 1.5;
+   position: relative;
+}
+
+.climates-text {
+   margin-top: 20px;
+   line-height: 1.5;
+   position: relative;
+}
+
+.colthes-text {
+   margin-top: 20px;
+   line-height: 1.5;
+   position: relative;
+}
+
+.ceramics-text h3 {
+   margin-bottom: 5px;
+}
+
+.climates-text h3 {
+   margin-bottom: 5px;
+}
+
+.colthes-text h3 {
+   margin-bottom: 5px;
+}
+
+.ceramics-text h3:hover {
+   color: #0989ff;
+}
+
+.climates-text h3:hover {
+   color: #0989ff;
+}
+
+.colthes-text h3:hover {
+   color: #0989ff;
+}
+
+.ceramics-text h5:hover {
+   color: #0989ff;
+}
+
+.climates-text h5:hover {
+   color: #0989ff;
+}
+
+.colthes-text h5:hover {
+   color: #0989ff;
+}
+
+.ceramics-text p {
+   margin-top: 8px;
+   padding-bottom: 12px;
+   font-size: 12px;
+}
+
+.climates-text p {
+   margin-top: 8px;
+   padding-bottom: 12px;
+   font-size: 12px;
+}
+
+.colthes-text p {
+   margin-top: 8px;
+   padding-bottom: 12px;
+   font-size: 12px;
+}
+
+/* 
+.ceramics-image a {
+   padding: 8px 15px;
+   color: white;
+   background-color: black;
+   position:absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+}
+
+.climates-image a {
+   padding: 8px 15px;
+   color: white;
+   background-color: black;
+   position: absolute;
+   z-index: 1;
+}
+
+.clothes-image a {
+   padding: 8px 15px;
+   color: white;
+   background-color: black;
+   position: absolute;
+   z-index: 1;
+} */
+
+
+/* section-10 */
+.section-10 {
+   justify-content: space-between;
+   padding-bottom: 50px;
+   width: auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.images-1 {
+   height: 230px;
+   width: 230px;
+   position: relative;
+   border-radius: 20px;
+   overflow: hidden;
+   margin-bottom: 10px;
+}
+
+.images-1 img {
+   height: 230px;
+   width: 230px;
+   object-fit: cover;
+}
+
+.instagram-icon-1 {
+   height: 230px;
+   width: 230px;
+}
+
+.overlay {
+   height: 230px;
+   width: 230px;
+   background-color: black;
+   opacity: 0.5;
+   position: absolute;
+   top: 0;
+   display: none;
+}
+
+.instagram-icon-1 {
+   display: none;
+}
+
+.images-1:hover .instagram-icon-1 {
+   display: block;
+}
+
+.images-1:hover .overlay {
+   display: block;
+}
+
+.instagram-icon-1 span {
+   height: inherit;
+   width: inherit;
+   position: absolute;
+   z-index: 1;
+   top: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.instagram-icon-1 span a i {
+   border: 1px solid rgb(104, 99, 99);
+   font-size: 20px;
+   color: white;
+   padding: 8px;
+   border-radius: 8px;
+}
+
+
+.images-1:hover .instagram-icon-1 span {
+   animation-duration: 0.8s;
+   animation-name: slide;
+}
+
+@keyframes slide {
+   from {
+      transform: translateY(15px);
+      opacity: 0;
+   }
+
+   to {
+      opacity: 1;
+   }
+}
+
+.instagram-icon-1 span a i:hover {
+   color: black;
+   background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer part */
+footer {
+   margin-top: 80px;
+   background-color: #e8e9ea;
+}
+
+.Newsletter {
+   background-color: #0989ff;
+   position: relative;
+   flex-wrap: wrap;
+   width: 100%;
+   object-fit: cover;
+}
+
+.text {
+   display: flex;
+   justify-content: space-between;
+}
+
+.News-text {
+   position: relative;
+   z-index: 1;
+   font-size: 20px;
+   color: white;
+   padding: 70px 65px;
+   width: 58%;
+}
+
+.News-text span {
+   font-weight: 700;
+   font-size: 15px;
+}
+
+.News-text h1 {
+   font-weight: 900;
+}
+
+.submit-button {
+   position: relative;
+   width: 42%;
+   padding: 70px 0px;
+}
+
+.submit-button input {
+   background-color: white;
+   border: 0;
+   border-radius: 8px;
+   height: 60px;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   padding-right: 20%;
+   padding-left: 26px;
+   z-index: 2;
+   right: 0;
+   outline: none;
+}
+
+button {
+   background-color: black;
+   border-radius: 0 8px 8px 0;
+   color: white;
+   padding: 22px 40px;
+   position: absolute;
+   right: 0;
+   z-index: 4;
+   overflow: hidden;
+   top: 67px;
+}
+
+.Newsletter .men-image {
+   position: absolute;
+   z-index: 2;
+   right: 8%;
+   top: -7%;
+}
+
+.plane {
+   position: absolute;
+   z-index: 3;
+   right: 40%;
+}
+
+.flexes {
+   display: flex;
+   justify-content: space-between;
+   width: auto;
+}
+
+
+.Newsdesing-1 {
+   mix-blend-mode: luminosity;
+   opacity: 0.4;
+   position: absolute;
+   left: 0;
+   height: 160px;
+}
+
+footer .Newsdesing-2 {
+   mix-blend-mode: luminosity;
+   opacity: 0.4;
+   position: absolute;
+   left: 17%;
+   height: 20px;
+}
+
+.Newsdesing-3 {
+   mix-blend-mode: luminosity;
+   opacity: 0.4;
+   position: absolute;
+   left: 20%;
+   bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all_div {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 30px;
+   flex-wrap: wrap;
+}
+
+.div-1 {
+   padding: 60px 60px 60px 0;
+   width: 30%;
+   line-height: 1.5;
+}
+
+.div-1 img {
+   margin-bottom: 20px;
+}
+
+.div-1 p {
+   margin-bottom: 20px;
+}
+
+.browser i {
+   background-color: white;
+   border-radius: 8px;
+   display: inline;
+   padding: 8px;
+   height: 40px;
+   width: 40px;
+   margin-right: 5px;
+   text-align: center;
+   color: rgb(48, 48, 48);
+   box-shadow: 0 1px 1px rgb(159, 158, 158);
+}
+
+.browser i:hover {
+   color: white;
+   background-color: #0989ff;
+}
+
+.div-2 {
+   padding: 40px;
+   width: 20%;
+   line-height: 2;
+}
+
+.div-2 ul li {
+   list-style-type: disc;
+   font-size: 13px;
+   line-height: 2.5;
+   color: rgb(60, 59, 59);
+}
+
+.div-2 h4 {
+   position: relative;
+   right: 12px;
+}
+
+.div-3 ul li {
+   list-style-type: disc;
+   font-size: 13px;
+   line-height: 2.5;
+   color: rgb(60, 59, 59);
+}
+
+.div-3 h4 {
+   position: relative;
+   right: 12px;
+}
+
+.div-3 {
+   padding: 40px;
+   width: 25%;
+   line-height: 2;
+}
+
+.div-4 {
+   padding: 40px;
+   width: 25%;
+   line-height: 1.3;
+}
+
+.div-4 h4 {
+   margin-bottom: 10px;
+}
+
+.div-4 h2 {
+   margin-bottom: 12px;
+}
+
+.div-4 span {
+   font-size: 13px;
+}
+
+.div-4 a {
+   color: inherit;
+   font-size: 13px;
+}
+
+.last_part {
+   border-top: 1px solid rgb(204, 201, 201);
+   padding-bottom: 80px;
+   font-size: 13px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 15px;
+}
+
+.last_part img {
+   position: relative;
+   right: 0;
+   padding-top: 10px;
+}
+
+.last_part span span {
+   color: #0989ff
+}
