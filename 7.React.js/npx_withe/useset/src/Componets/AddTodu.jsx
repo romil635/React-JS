@@ -5,15 +5,16 @@ export  function AddTodo({ onAddTodo }) {
   return (
     <>
       <input className='bg-gray-500 text-amber-300'
-        placeholder="Add todo"
+        placeholder="Add Your Name"
         value={title}
         onChange={e => setTitle(e.target.value)}
       />
       <button className='bg-indigo-200 ml-2 w-14' onClick={() => {
-        setTitle('');
+        setTitle('Romil');
         onAddTodo(title);
-      }}>Add</button>
+      }}>Sing Up</button>
     </>
   )
 }
 export default AddTodo;
+

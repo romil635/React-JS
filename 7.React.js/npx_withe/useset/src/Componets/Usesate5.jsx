@@ -4,9 +4,9 @@ import TaskList from '../Componets/TaskList.jsx';
 
 let nextId = 3;
 const initialTodos = [
-  { id: 0, title: 'Buy milk', done: true },
-  { id: 1, title: 'Eat tacos', done: false },
-  { id: 2, title: 'Brew tea', done: false },
+  { id: 0, title: 'Rakholiya', done: true },
+  { id: 1, title: 'Romil', done: false },
+  { id: 2, title: 'M.', done: false },
 ];
 
 export  function TaskApp() {

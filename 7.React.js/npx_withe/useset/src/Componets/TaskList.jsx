@@ -35,7 +35,7 @@ function Task({ todo, onChange, onDelete }) {
             });
           }} />
         <button className='bg-indigo-300 ml-8 w-14 mt-6' onClick={() => setIsEditing(false)}>
-          Save
+        Sign Up
         </button>
       </>
     );

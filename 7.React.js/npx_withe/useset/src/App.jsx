@@ -8,18 +8,18 @@ import TaskApp from './Componets/Usesate5'
 const App = () => {
   return (
     <div>
-      <Counter/>
-      <hr></hr>
-      <br></br>
-      <Sate2/>
-      <hr></hr>
-      <br></br>
-      <From/>
-      <hr></hr>
-      <br></br>
-      <Form2/>
-      <hr></hr>
-      <br></br>
+      {/* <Counter/> */}
+      {/* <hr></hr> */}
+      {/* <br></br> */}
+      {/* <Sate2/> */}
+      {/* <hr></hr> */}
+      {/* <br></br> */}
+      {/* <From/> */}
+      {/* <hr></hr> */}
+      {/* <br></br> */}
+      {/* <Form2/> */}
+      {/* <hr></hr> */}
+      {/* <br></br> */}
       <TaskApp/>
 
     </div>

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    body{
+    
+    }
+    .btn{
+        @apply bg-blue-500 text-white font-bold py-2 px-4 rounded m-4;
+    &:hover{
+            @apply bg-purple-500 animate-pulse;
+        }
+    }
+}
