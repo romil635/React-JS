@@ -8,11 +8,13 @@
   }
   
   .time {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 30%;
     padding: 20px;
-    background-color:rgb(194, 157, 218);
-    color: #fa9805;
+    background-color:rgb(103, 150, 151);
+    color: #fef101;
+    font-size: xx-small;
+    text-shadow:0pt red ;
     border-radius: 50%;
     text-align: center;
     display: flex;
@@ -20,5 +22,7 @@
     justify-content: center ;
     font-size:80px;
     font-style: unset;
+    border-radius: 0px 40px;
+    
   }
   
