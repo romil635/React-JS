@@ -30,7 +30,7 @@ const User = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <form className="bg-white p-6 rounded shadow-md w-full max-w-sm" onSubmit={formik.handleSubmit}>
+      <form className="bg-white p-6 rounded shadow-md w-screen " onSubmit={formik.handleSubmit}>
         <h1 className="text-2xl font-bold mb-4 text-center">Add User</h1>
         
         <div className="mb-4">
@@ -108,13 +108,20 @@ className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 
             <div className="text-red-500 text-sm">{formik.errors.mobile}</div>
           ) : null}
         </div>
-        
-        <button
+        <div className='flax  items-center justify-center'>
+        <button 
           type="submit"
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full"
         >
           Add User
         </button>
+        <button
+          type="submit"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full"
+        >
+          Go Back
+        </button>
+        </div>
       </form>
     </div>
   );
