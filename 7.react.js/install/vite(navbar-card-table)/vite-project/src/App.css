@@ -1,0 +1,161 @@
+body{
+  max-width: 100%;
+  max-height: 100vh;
+  background: linear-gradient(to right,rgba(253,121,168,0.4)70%,white 30%)
+}
+.navbar{
+  padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.nav-item ul{
+  display: flex;
+  align-items: center;
+  list-style: none; 
+}
+.nav-item ul li{
+  margin-left:15px;
+
+}
+.nav-item ul li a{
+  font-size:20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding:55px 30px;
+}
+.nav-item li:first-child{
+  background-color: palevioletred;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 70px;
+
+}
+.left{
+  flex-basis:50%;
+}
+
+.right{
+   flex-basis: 50%;
+   text-align: center;
+}
+.left h1{
+  font-size:4rem;
+}
+.left h1 span{
+  color:white;
+  background-color:palevioletred;
+  padding: 0px 15px;
+  border-radius: 5px;
+}
+.left p{
+  margin: 30px 0px;
+  line-height: 2rem;
+}
+.left button{
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background:palevioletred;
+  color: white;
+  border-radius: 5px;
+}
+#btn2{
+  padding: 10px 20px;
+  border:1px solid palevioletred;
+  outline: none;
+  background:transparent;
+  color:black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.caption{
+  text-align: center;
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align:start;
+  height: 500px;
+}
+table td ,th{
+  border: 1px solid black;
+  padding:70px;
+}
+
+.container-1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.card{
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightpink;
+}
+.card a{
+  text-decoration: none;
+  background-color:palevioletred;
+  color: white;
+  padding: 15px;
+  border-radius:10px;
+  display: block;
+  margin: 20px 100px;
+
+}
+.footer{
+  margin-top:-6px;
+
+  padding:10px 15%;
+  /* background:palevioletred; */
+  color:black;
+  display: flex;
+}
+.footer div{
+   text-align: center;
+
+}
+.col-2{
+  flex-grow: 2;
+}
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px; 
+
+}
+.col-1 a{
+  display: flex;
+  text-decoration: none;
+  color:black;
+  margin-bottom: 10px;
+}
+form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+form button{
+ 
+  padding: 10px 20px;
+    border:1px solid palevioletred;
+    outline: none;
+    background:transparent;
+    color:black;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
