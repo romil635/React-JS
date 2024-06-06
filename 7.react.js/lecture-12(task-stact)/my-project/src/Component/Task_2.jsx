@@ -19,6 +19,7 @@ const Task_2 = () => {
         increment();
         increment();
         increment();
+        increment();
       }}>+3</button>
       <button className="bg-red-300 w-20 text-white" onClick={() => {
         increment();
