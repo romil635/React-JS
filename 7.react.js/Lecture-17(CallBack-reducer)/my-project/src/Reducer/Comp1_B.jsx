@@ -5,7 +5,7 @@ import React from 'react'
 const Comp1_B = () => {
   return (
     <div>
-        <h1>This is component B </h1>
+        <h1>This is component B.1 </h1>
           <Comp1_c/>
     </div>
   )
