@@ -1,0 +1,40 @@
+{
+  "User": [
+    {
+      "id": "f96d",
+      "firstname": "Romil",
+      "lastname": "Rakholiya",
+      "age": "19",
+      "profession": "full stack developer",
+      "number": "6359358506",
+      "image": null
+    },
+    {
+      "id": "4f77",
+      "firstname": "Meet",
+      "lastname": "Koladiya",
+      "age": "18",
+      "profession": "full stack developer",
+      "number": "6359358506",
+      "image": null
+    },
+    {
+      "id": "9216",
+      "firstname": "Harsh",
+      "lastname": "Karkar",
+      "age": "21",
+      "profession": "Front end Developer",
+      "number": "9098745972",
+      "image": null
+    },
+    {
+      "id": "2469",
+      "firstname": "Harsukhabhai",
+      "lastname": "rakholiya",
+      "age": "41",
+      "profession": "shop pipar",
+      "number": "9099243448",
+      "image": null
+    }
+  ]
+}
