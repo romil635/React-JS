@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      height: 100px;
+      width: 100px;
+      background-color: darkblue;
+      border: 1px solid black;
+    }
+
+    .box-1 {
+      height: 100px;
+      width: 100px;
+      background-color: darkcyan;
+      border: 1px solid black;
+    }
+
+    .divparent {
+      height: 400px;
+      width: 400px;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ulparent {
+      height: 300px;
+      width: 300px;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .lichild {
+      height: 100px;
+      width: 200px;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .spanchild {
+      height: 50px;
+      width: 100px;
+      border: 1px solid black;
+    }
+
+    .bchild {
+      height: 50px;
+      width: 100px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+
+
+  <!--  add , remove toggel -->
+
+  <div  id="demo" class="box"></div>
+  <div  id="demo"></div>
+  <button id="btn1">remove class</button>
+  <button id="btn2">add class</button>
+  <button id="btn3">toggle class</button>
+  <button id="btn1">add css</button>
+
+
+  
+  <div class="divparent">
+    <ul class="ulparent"> 
+      <li class="lichild">
+        <span class="spanchild">this is span tag</span>
+      </li>
+      <li class="lichild">
+        <b class="bchild"> this is b tag</b>
+      </li>
+      <ul>
+  </div>
+
+  <p> this is p tag</p>
+  <span>this is span tag</span>
+  <div>this is div tag</div>
+  <p> this is p tag</p>
+  <p> this is p tag</p>
+  <h1>this is h1 tag</h1>
+  <span>this is span tag</span>
+  <span>this is span tag</span>
+
+
+
+  <div>this is div tag</div>
+             <div>this is div tag</div>
+             <div>this is div tag</div>
+             <div>this is div tag</div>
+             <div class="heading">this is div tag</div>
+             <div>this is div tag</div>
+             <div>this is div tag</div>
+             <div>this is div tag</div>
+             <div>this is div tag</div>
+             <div>this is div tag</div>
+             <div class="heading">this is div tag</div>
+             
+  <button id="btn">click me</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="./jQuery.js"></script> 
+</body>
+
+</html>

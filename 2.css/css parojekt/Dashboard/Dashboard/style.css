@@ -450,7 +450,7 @@ aside .aside-buttons .row-I-btns #dashbords ul li:nth-child(3) a::first-letter
 
     margin: auto;
     padding: 95px 20px 0px 0px ;
-    width:100%;
+    width: 100%;
 }
 
 
@@ -464,7 +464,7 @@ aside .aside-buttons .row-I-btns #dashbords ul li:nth-child(3) a::first-letter
     top: 0%;
     left: 290px;
     margin: auto;
-    width:calc(100% - 25%);
+    width:calc(1195px);
     border-radius: 0px 0px 5px 5px ;
     padding: 19px 0px 0px 0px ;
 }
